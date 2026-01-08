@@ -1266,3 +1266,13 @@ body {
         flex-direction: column;
     }
 }
+
+.profile-photo {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--border-color);
+    position: relative;
+    z-index: 1;
+}
